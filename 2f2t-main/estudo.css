@@ -1,40 +1,40 @@
-* {
+*{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 body {
-    background-color:palevioletred;
+background-color:rgb(248, 241, 250) ;
 }
-.item {
+.item{
     width: 370px;
     height: 100px;
-    background-color: pink;
-    color: black;
+    background-color: deeppink;
+    color:antiquewhite;
     margin: 10px;
 }
-.conteudo {
+.conteudo{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-
+    
 }
-
-.barra {
-    background-color: rgb(52, 2, 52);
+.barra{
+    background-color: rgb(174, 6, 252);
     height: 20vh;
     grid-area: barra;
 }
-.lado {
-    background-color: rgb(110, 11, 110);
-    height: 80vh;
-    grid-area: lado;
-}
-.principal {
-    background-color: rgb(157, 32, 157);
+.principal{
+    background-color: rgb(123, 4, 192);
     height: 60vh;
     grid-area: principal;
 }
-.rodape {
-    background-color: rgb(214, 71, 214);
+.lado{
+    background-color: rgb(87, 6, 134);
+    height: 60vh;
+    grid-area: lado
+}
+.rodape{
+    background-color: rgb(178, 141, 187);
     height: 20vh;
     grid-area: rodape;
 }
@@ -44,6 +44,6 @@ body {
     grid-template-areas: 
                     "barra barra"
                     "lado principal"
-                    "lado rodape";
+                    "rodape rodape";
 
 }

@@ -1,3 +1,3 @@
-#Segundo Trimestre - mobile-first
+# Segundo Trimestre-mobile-first
 
-Ana Sara - 05
+Ana Sara-05
