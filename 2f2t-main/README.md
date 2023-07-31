@@ -1,3 +1,2 @@
 # Segundo Trimestre-mobile-first
-
-Ana Sara-05
+JESUS - 50
